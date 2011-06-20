@@ -1,6 +1,12 @@
 let mapleader = ","
 
+call pathogen#runtime_append_all_bundles()
+
 filetype plugin indent on
+
+set background=dark
+colorscheme ir_black
+syntax on
 
 set nocompatible
 set modelines=0
