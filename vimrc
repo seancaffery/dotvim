@@ -1,14 +1,16 @@
 let mapleader = ","
 
+filetype off
 call pathogen#runtime_append_all_bundles()
-
 filetype plugin indent on
 
 colorscheme ir_black
 if !empty(&t_Co)
   colorscheme twilight256
 endif
+
 syntax on
+colorscheme ir_black
 
 set nocompatible
 set modelines=0
@@ -41,6 +43,7 @@ inoremap jj <ESC>
 
 " split window mapping
 nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>s <C-w>s<C-w>j
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
