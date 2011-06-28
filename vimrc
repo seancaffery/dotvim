@@ -4,8 +4,10 @@ call pathogen#runtime_append_all_bundles()
 
 filetype plugin indent on
 
-set background=dark
 colorscheme ir_black
+if !empty(&t_Co)
+  colorscheme twilight256
+endif
 syntax on
 
 set nocompatible
