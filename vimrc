@@ -9,9 +9,6 @@ if !empty(&t_Co)
   colorscheme twilight256
 endif
 
-syntax on
-colorscheme ir_black
-
 set nocompatible
 set modelines=0
 
