@@ -22,3 +22,6 @@
 [submodule "bundle/haml"]
 	path = bundle/haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule "bundle/gnupg"]
+	path = bundle/gnupg
+	url = https://github.com/vim-scripts/gnupg.vim.git
