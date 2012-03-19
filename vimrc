@@ -1,5 +1,8 @@
 let mapleader = ","
 
+syntax on
+set ruler
+set scrolloff=2
 filetype off
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
